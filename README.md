@@ -16,6 +16,7 @@
 - HTML
 - Javascript
 - Vue.js
+- Bootstrap
 
 ---
 
