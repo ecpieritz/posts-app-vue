@@ -1,6 +1,11 @@
 <template>
   <section class="row">
-    
+    <div class="col-lg-3 col-md-4 col-sm-6" v-for="(photo, i) in photos" :key="i">
+      <div class="card">
+        <img :src='photo.url' alt="">
+        <p>{{photo.title}}</p>
+      </div>
+    </div>
   </section>
 </template>
 
