@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="input-search">
-      <input type="text" v-model="search" placeholder="Search card..." />
+      <input class="form-control" type="text" v-model="search" placeholder="Search card..." />
     </div>
     <section class="row">
       <div class="col-lg-3 col-md-4 col-sm-6" v-for="(photo, i) in filteredPhotos" :key="i">
@@ -76,6 +76,12 @@ export default defineComponent({
 
 .input-search {
   margin-top: 30px;
+}
+
+.input-search .form-control{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 </style>
