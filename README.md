@@ -3,7 +3,9 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "xxx" width = "700" height = "auto">
+  <img src = "https://github.com/ecpieritz/posts-app-vue/blob/main/public/print-01.png?raw=true" width = "700" height = "auto">
+  <img src = "https://github.com/ecpieritz/posts-app-vue/blob/main/public/print-02.png?raw=true" width = "350" height = "auto">
+  <img src = "https://github.com/ecpieritz/posts-app-vue/blob/main/public/print-03.png?raw=true" width = "350" height = "auto">
 </p>
 
 ## 📖 About
