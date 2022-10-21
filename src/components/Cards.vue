@@ -18,7 +18,7 @@ export default defineComponent({
   setup(){
     const photos = ref([])
 
-    const fecthPhotos = ()=> api.get("/photos")
+    const fecthPhotos = ()=> api.get("/photos?albumId=1")
     .then((response)=> photos.value = response.data)
 
     onMounted(fecthPhotos)

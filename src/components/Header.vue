@@ -36,7 +36,7 @@ export default {
     width: 40px;
   }
 
-  @media(max-width: 780px){
+  @media(max-width: 960px){
     header{
       padding: 15px 60px;
     }
