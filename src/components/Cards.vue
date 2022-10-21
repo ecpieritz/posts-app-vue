@@ -29,5 +29,29 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.row{
+  margin-top: 60px;
+}
+.col-lg-3.col-md-4.col-sm-6{
+  margin-bottom: 30px;
+}
+  .card{
+    max-width: 95%;
+    height: 100%;
+    background-color: var(--light-blue);
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .card img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
 
+  .card p{
+    margin: 10px;
+    color: var(--white);
+    text-transform:capitalize;
+    text-align: center;
+  }
 </style>
