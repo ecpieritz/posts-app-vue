@@ -24,10 +24,10 @@
 
 ## 🚀 How to execute the project
 #### Clone the repository
-git clone https://github.com/ecpieritz/posts-app.git
+git clone https://github.com/ecpieritz/posts-app-vue.git
 
 #### Enter directory
-`cd posts-app`
+`cd posts-app-vue`
 
 #### Run the server
 - `npm install`
