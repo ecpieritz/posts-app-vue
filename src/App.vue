@@ -20,13 +20,15 @@ export default {
 </script>
 
 <style>
-:root{
+:root {
   --light-blue: #4a7399;
   --blue: #1d4468;
   --dark-blue: #09233b;
   --white: #ffffff;
 }
-body, html{
+
+body,
+html {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--blue);
 }
