@@ -1,12 +1,16 @@
 <template>
   <div id="app">
+    <Header />
   </div>
 </template>
 
 <script>
+import Header from './components/Header'
+
 export default {
   name: 'App',
   components: {
+    Header
   }
 }
 </script>
@@ -18,10 +22,8 @@ export default {
   --dark-blue: #09233b;
   --white: #ffffff;
 }
-#app{
+body, html{
   font-family: 'Montserrat', sans-serif;
-}
-body{
   background-color: var(--blue);
 }
 </style>
