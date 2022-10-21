@@ -1,5 +1,4 @@
 <h1 align = "center"> :fast_forward: Posts App :rewind: </h1>
-<h6 align = "center">(pt-Br)</h6>
 
 ## 🖥 Preview
 <p align = "center">
